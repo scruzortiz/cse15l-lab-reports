@@ -9,9 +9,9 @@ Click me: [Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 > Something 
 
-* idk 
-* idk 
-* and idk
+* shaggy  
+* scooby
+* velma
 
 1. thing one
 2. thing two
