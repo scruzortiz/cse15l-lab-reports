@@ -50,6 +50,7 @@ When prompted enter your password. Then log into back into ieng6 with (ssh cs15l
 This will show you that the file is in your directory. It should look like this:
 
 ![Image](Screenshot(307).png)
+
 ![Image](Screenshot(308).png)
                                   
 **Step 5: Setting an SHH Key:**   
@@ -62,6 +63,7 @@ To make sure everything worked simply log back into ieng6 and you should be able
 The entire process should look like this:
 
 ![Image](Screenshot(311).png)
+
 ![Image](Screenshot(312).png)
                                   
 **Step 6: Optimizing Remote Running:**
@@ -69,6 +71,7 @@ The entire process should look like this:
 To cut down on things you have to enter into the terminal one thing is to enter the command you want to execute at the end of your ssh command in parenthesis.
                                   
 For example: 
+
 ssh cs15lsp22___@ieng6.ucsd.edu "ls"
 
 ![Image](Screenshot(313).png)
