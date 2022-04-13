@@ -47,7 +47,7 @@ When prompted enter your password. Then log into back into ieng6 with (ssh cs15l
 
 This will show you that the file is in your directory. It should look like this:
 
-![Image](Screenshot (307).png)
+![Image](Screenshot(307).png)
 ![Image](Screenshot (308).png)
                                   
 **Step 5: Setting an SHH Key:**   
