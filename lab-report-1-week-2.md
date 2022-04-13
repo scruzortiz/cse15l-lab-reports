@@ -8,7 +8,7 @@ Select download to and follow those instructions to download.
                                                
 Once you've downloaded VSCode open the application, it should look like this: 
 
-![Image](Screenshot (314).png)                                                
+![Image](Screenshot(314).jpg)                                                
 
 **Step 2: Remotely Connecting:**
 ---
