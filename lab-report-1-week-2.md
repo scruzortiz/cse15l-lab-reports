@@ -7,7 +7,8 @@ Go to the **visual studio code website** [here](https://code.visualstudio.com/).
 Select download to and follow those instructions to download.
                                                
 Once you've downloaded VSCode open the application, it should look like this: 
-                                                
+
+![screnshot4](Screenshot (314).png)                                                
 
 **Step 2: Remotely Connecting:**
 ---
@@ -18,6 +19,7 @@ Enter this command in your terminal(with the ___ replaced by the letters in your
 Do not panic if there is a message the authenticity can't be established it's normal for your first time! Enter yes when asked if your sure you want to continue connecting.
 
 Enter your password for your course-specific account. It should look like this: 
+![screnshot2](Screenshot (305).png)
                                   
 \*IMPORTANT NOTE:* to exit from ieng6 terminal in a new terminal line enter: *exit*                                  
                                   
@@ -32,7 +34,8 @@ Try out some commands from below by simply inputting one of the following into t
 * cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/
 * cat /home/linux/ieng6/cs15lsp22/public/hello.txt
 
-Here is an example output with cd: 
+Here is an example output with cp:
+![screnshot5](Screenshot (306).png) 
                                  
 **Step 4: Moving Files with scp:**
 ---
@@ -43,6 +46,9 @@ scp (file name) cs15lsp___@ieng6.ucsd.edu:~/
 When prompted enter your password. Then log into back into ieng6 with (ssh cs15lsp22___@ieng6.ucsd.edu) and enter the command: ls
 
 This will show you that the file is in your directory. It should look like this:
+
+![screnshot3](Screenshot (307).png)
+![screnshot4](Screenshot (308).png)
                                   
 **Step 5: Setting an SHH Key:**   
 ---
@@ -52,13 +58,18 @@ Log back into ieng6. Once loged in enter mkdir .shh. Logout of ieng6. Then enter
 To make sure everything worked simply log back into ieng6 and you should be able to log in without having to enter a password.
                                   
 The entire process should look like this:
+
+![screnshot3](Screenshot (311).png)
+![screnshot4](Screenshot (312).png)
                                   
 **Step 6: Optimizing Remote Running:**
 ---
 To cut down on things you have to enter into the terminal one thing is to enter the command you want to execute at the end of your ssh command in parenthesis.
                                   
 For example: 
-ssh cs15lsp22___@ieng6.ucsd.edu "cd"
+ssh cs15lsp22___@ieng6.ucsd.edu "ls"
+
+![screnshot4](Screenshot (313).png)
                                   
                                   
 
