@@ -4,7 +4,7 @@
 
 Breaking the infinite loop when there is no braket/parenthesis:
 
-![image](Screenshot (316).png)
+![image](Screenshot(316).jpg)
 
 [link to failure inducing input](https://github.com/scruzortiz/markdown-parser/blob/main/newtest-file.md)
 
@@ -28,7 +28,7 @@ So when you ran the code, after a little while it would show that it was out of 
 
 Processing an linke when it's an image link 
 
-![image](Screenshot (320).png)
+![image](Screenshot(320).jpg)
 
 [link to failure inducing input](https://github.com/TheJoeship/markdown-parser-fork/commit/ca97f28fa6755f1d48b519a208765e39ffd9a4f2)
 
@@ -46,7 +46,7 @@ This would give the incorrect output because it would treat the link for an imag
 
 When there are parenthsis in the link
 
-![image](Screenshot (321).png)
+![image](Screenshot(321).jpg)
 
 [link to failure inducing input](https://github.com/bsalvania/markdown-parser/commit/98d2429e664e5a49cc3501ce27a87d8a6dc61c91)
 
