@@ -7,44 +7,31 @@ import java.util.ArrayList;
 public class skillsDemoPrep {
 
     //counts the number of each vowels there are 
-    public static int getVowels(String words){
-        int count = 0; 
-
-        
+    public static ArrayList<String> getPicture(String words){
+        ArrayList<String> finalList = new ArrayList<>();
         int currIndex = 0;
         while(currIndex < words.length()){
-            if(words.indexOf('a', currIndex) != -1){
-                count += 1;
-                currIndex += 1; 
-            }
-            else if(words.indexOf('e', currIndex) != -1){
-                count += 1;
-                currIndex += 1;
-            }
-            else if(words.indexOf('i', currIndex) != -1){
-                count += 1;
-                currIndex += 1;
-            }
-            else if(words.indexOf('o', currIndex) != -1){
-                count += 1;
-                currIndex += 1;
-            }
-            else if(words.indexOf('u', currIndex) != -1){
-                count += 1;
-                currIndex += 1;
-            }
+            if(words.indexOf("!", currIndex) != -1){
+                int openBraket = words.indexOf("[", currIndex);
+                int closeBraket = words.indexOf("]", openBraket);
+                int openParen = words.indexOf("(", closeBraket);
+                int closeParen = words.indexOf(")", openParen);
 
+                finalList.add(words.substring(openParen + 1, closeParen));
+                currIndex += 1;
+            }
+            else{
+                currIndex += 1;
+            }
         }
-        
-        return count;
 
+        return finalList;
     }
-    public static void main(String[] args) throws IOException{
-        Path filename = Path.of(args[0]);
-        String content = Files.readString(filename);
-        int vowels = getVowels(content);
-        System.out.println(vowels);
-    
+    public static void main(String[] args) throws IOException {
+        Path fileName = Path.of(args[0]);
+        String content = Files.readString(fileName);
+        ArrayList<String> links = getPicture(content);
+	    System.out.println(links);
     }
 
 }

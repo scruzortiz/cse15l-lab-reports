@@ -9,14 +9,13 @@ import org.junit.*; //imports junit
 public class skillsDemoTest { //creates class for testing 
     
     @Test
-    public void testcountvowels(){
-        Path fileName = Path.of("math.md");
+    public void testgetitaly(){
+        Path fileName = Path.of("words.md");
         try{
             String content = Files.readString(fileName);
-            assertEquals(List.of(2, 2, 2, 2, 2), skillsDemoPrep.getVowels(content));
-
+            assertEquals(List.of("image.jpg"), skillsDemoPrep.getPicture(content));
         }catch(IOException e){
-            
+
         }
     }
 }
